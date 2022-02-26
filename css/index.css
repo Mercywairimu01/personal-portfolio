@@ -4,44 +4,48 @@
 }
 
 header{
-    background-color: rgb(187, 247, 227);
-    display: flex;
-   
-}
-header .nav {
-    
+    background-color: rgb(121, 241, 235);
     height: 100px;
     width:100%;
     display: flex;
-    align-items:center;
-    justify-content: end;
-    
-
-}
-header a{
-    font-size: 20px;
-    text-decoration: none;
-    color: black;
-    
-}
-header a:hover{
-    background-color: rgb(223, 121, 90);
-    padding: 10px;
-}
-.nav-link{
-    color: black;
-}
+    justify-content: space-around;
+} 
+/*...styling the logo*/
 .logo{
-    width: 40%;
+    width: 20%;
     height: 100px;
     color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* margin-left: -60px; */
 }
+
 .logo i{
-    color: rgb(4, 129, 245);
+    color: rgb(245, 149, 24);
+    font-weight: bolder;
 }
+/* nav styling */
+nav{
+    height: 100px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+nav a:hover{
+    background-color: rgb(245, 149, 24);
+    padding: 10px;
+}
+
+/* main section styling */
 .profile{
     height: 700px;
     margin-top: 40px;
@@ -51,12 +55,22 @@ header a:hover{
    
 }
 #prof{
-    background:linear-gradient(-75deg,rgb(245, 149, 24) 50%,white 50%);
+    /* background:linear-gradient(-75deg,rgb(245, 149, 24) 50%,white 50%); */
     width: 60%;
     height: 800px;
+    position: relative;
+}
+#prof .profile{
+    position: absolute;
 }
 #name{
     margin-top: 200px;
     font-weight: bold;
     color: rgb(245, 149, 24);
+}
+.p-3{
+    font-weight: bold;
+}
+.btn{
+    background-color:rgb(245, 149, 24);
 }
