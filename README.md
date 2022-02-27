@@ -1,4 +1,4 @@
-# Personal-Portfolio
+# portfolio
 
 ##### By Mercy Wairimu.
 ### It is a description of my programming portfolio. It contains my past works, my background information like education and experience.
@@ -17,7 +17,7 @@
 <p>A preview of the web design is below:</p>
 
 [Personal-Portfolio](https://www.figma.com/file/5yjjNSrymlKyS0e7fP3HKy/Untitled?node-id=0%3A1)
-
+## Installation Requirements
 
 * Either a computer,phone,tablet or an Ipad
 
