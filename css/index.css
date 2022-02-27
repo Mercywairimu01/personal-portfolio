@@ -5,7 +5,7 @@
 
 header{
     background-color: rgb(240, 223, 237);
-    height: 80px;
+    height: 60px;
     width:80%;
     display: flex;
     justify-content: space-around;
@@ -15,7 +15,7 @@ header{
 .logo{
    
     width: 40%;
-    height: 70px;
+    height: 60px;
     color: black;
     display: flex;
     align-items: center;
@@ -29,7 +29,7 @@ header{
 }
 /* nav styling */
 nav{
-    height: 100px;
+    height: 60px;
     width: 40%;
     display: flex;
     align-items: center;
@@ -49,17 +49,17 @@ nav a:hover{
 
 /* main section styling */
 .profile{
-    height: 450px;
+    height: 400px;
     margin-top: 20px;
     border: 1px;
     border-radius: 30px;
-    box-shadow:-8px 8px 10px gainsboro;
+    box-shadow:-8px 8px 10px rgb(245, 149, 24);
     
 }
 #prof{
     /* background:linear-gradient(-75deg,rgb(245, 149, 24) 50%,white 50%); */
     width: 60%;
-    height: 500px;
+    height: 450px;
     position: relative;
 }     
 #prof .profile{
@@ -79,6 +79,7 @@ nav a:hover{
 /* about me section styling */
 #about{
     background-color: rgb(240, 223, 237);
+    height: 420px;
 
 }
 .about{
@@ -96,22 +97,30 @@ nav a:hover{
 }
 #person{
     border: 1px;
-    box-shadow: -4px 5px 1px gray;
+    box-shadow: -4px 5px 1px rgb(245, 149, 24);
 }
 h5.person{
-    margin-left: 50px; 
+    text-align: center;
+   
 }
 #person ul{
    list-style:none ;
+  
 }
 h5.my{
-   margin-left: 50px;
+    text-align: center;
+   
   
 }
 #my {
     border: 1px;
-    box-shadow: 4px -5px 1px gray;
+    box-shadow: 4px -5px 1px rgb(245, 149, 24);
 }
 #my ul{
     list-style: none;
+}
+h5#experience{
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
 }
